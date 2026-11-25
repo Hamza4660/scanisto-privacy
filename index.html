@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Scanisto</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #16181d;
+    --muted: #5b6270;
+    --rule: #e3e6ec;
+    --card: #f6f7f9;
+    --accent: #2f6bff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101216;
+      --fg: #e9ecf1;
+      --muted: #a0a7b4;
+      --rule: #262a32;
+      --card: #181b21;
+      --accent: #7aa2ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 40px 20px 80px;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.02em; }
+  h2 { font-size: 1.15rem; margin: 38px 0 10px; letter-spacing: -0.01em; }
+  h3 { font-size: 1rem; margin: 22px 0 6px; }
+  p, li { color: var(--fg); }
+  .meta { color: var(--muted); font-size: .9rem; margin: 0 0 28px; }
+  .lede { font-size: 1.05rem; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 34px 0; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 18px 0;
+  }
+  .card p:first-child { margin-top: 0; }
+  .card p:last-child { margin-bottom: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: .95rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-weight: 600; }
+  .scroll { overflow-x: auto; }
+  footer { margin-top: 48px; color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Scanisto: PDF Scanner (iOS) &middot; Last updated: 26 November 2026</p>
+
+  <p class="lede">Scanisto is built to work without knowing who you are. There is no account, no login, and no user profile. Scanning, editing, converting, signing, and saving your documents all happen on your device, and your documents never leave it unless you choose to share them.</p>
+
+  <p>This policy explains what the app does and does not collect, and the choices you have. It applies to the Scanisto: PDF Scanner iOS app (the &ldquo;app&rdquo;), published by Aqib Rasheed, an individual developer (&ldquo;we&rdquo;, &ldquo;us&rdquo;). In plain terms: the app does not collect your personal information, and we never receive your documents.</p>
+
+  <h2>1. Information stored on your device</h2>
+  <p>The following stays in the app&rsquo;s private storage on your iPhone or iPad. We cannot see it, and it is not uploaded to us or anyone else:</p>
+  <ul>
+    <li><strong>Your documents</strong> — the PDFs and pages you scan, import, or create, including the images and recognised text inside them.</li>
+    <li><strong>Document organisation</strong> — folders, file names, and any documents you move to the hidden, locked area.</li>
+    <li><strong>Signatures</strong> — any signature you draw and save for reuse.</li>
+    <li><strong>App settings</strong> — preferences such as default scan filters, appearance, and haptics.</li>
+  </ul>
+  <p>You can delete this at any time from within the app by removing individual documents or folders. Deleting the app removes all of it permanently.</p>
+
+  <h2>2. Device permissions</h2>
+  <p>The app asks for a permission only at the moment a feature needs it, and each one can be revoked in iOS Settings.</p>
+  <div class="scroll">
+  <table>
+    <tr><th>Permission</th><th>Why</th><th>Where the data goes</th></tr>
+    <tr><td>Camera</td><td>To scan documents, receipts, and ID cards with your device camera.</td><td>Frames are analysed on your device in real time to detect and capture the page. They are never recorded or transmitted; only the pages you choose to keep are saved, on your device.</td></tr>
+    <tr><td>Photo library</td><td>To import existing pictures to turn into PDFs, and to save pages or images back to your library.</td><td>Images you pick are processed on your device. Saving back to your library is add-only. Nothing is uploaded to us.</td></tr>
+    <tr><td>Face ID / Touch ID</td><td>To lock the hidden documents area so only you can open it.</td><td>Authentication is handled entirely by iOS. The app only receives a yes-or-no result; it never sees your biometric data, which never leaves the Secure Enclave on your device.</td></tr>
+  </table>
+  </div>
+
+  <h2>3. On-device intelligence (summaries, translation, text recognition)</h2>
+  <div class="card">
+    <p>Scanisto&rsquo;s smart features run on your device using Apple&rsquo;s built-in frameworks:</p>
+    <ul>
+      <li><strong>Text recognition (OCR)</strong> makes a scanned page searchable and selectable, using Apple&rsquo;s on-device Vision framework.</li>
+      <li><strong>Summaries</strong> are generated by Apple Intelligence&rsquo;s on-device model.</li>
+      <li><strong>Translation</strong> uses Apple&rsquo;s Translation framework with language packs downloaded by iOS.</li>
+    </ul>
+    <p>Your document text is processed on your device by these Apple system features. <strong>The app does not send your documents, pages, or their text to us or to any server of ours.</strong> Apple&rsquo;s own processing of these features is governed by the <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a>.</p>
+  </div>
+
+  <h2>4. When information leaves your device</h2>
+  <p>The app has no analytics, no advertising, no accounts, and makes no network requests to us. Information leaves your device only when <strong>you</strong> choose to send it:</p>
+  <ul>
+    <li><strong>Sharing and exporting.</strong> When you use the share sheet or save a document to Files, iCloud Drive, or another app, that file goes wherever you send it. From that point it is handled by the destination you picked and by Apple, not by us.</li>
+    <li><strong>Support email.</strong> If you email us for support, we receive what you write, plus the app version and device model you choose to include, so we can help. We use it only to answer you.</li>
+  </ul>
+
+  <h2>5. Payments</h2>
+  <p>If the app offers any paid feature, the payment is handled entirely by Apple through the App Store. We never see or receive your card number, billing address, or Apple Account credentials &mdash; only anonymous confirmation from Apple that a purchase is valid. Apple&rsquo;s handling of that transaction is covered by the <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a>.</p>
+
+  <h2>6. What we never do</h2>
+  <ul>
+    <li>We do not sell or rent your personal information.</li>
+    <li>We do not upload your documents, scans, camera feed, or photos.</li>
+    <li>We do not require an account or ask for your name, email, or phone number to use the app.</li>
+    <li>We do not use analytics, advertising, or third-party trackers, and we do not build profiles about you.</li>
+  </ul>
+
+  <h2>7. Retention</h2>
+  <p>Your documents and settings stay on your device until you delete them or uninstall the app; we hold none of them. If you email us for support, we keep that correspondence only as long as needed to resolve your request.</p>
+
+  <h2>8. Children</h2>
+  <p>The app is not directed at children under 13 (or the equivalent minimum age in your country), and we do not knowingly collect personal information from anyone. If you believe a child has provided personal information to us through a support email, contact us and we will delete it.</p>
+
+  <h2>9. Your rights</h2>
+  <p>Because the app stores your content locally and holds no account, you can exercise most rights directly: view your documents in the app, delete individual items or everything, and revoke any permission in iOS Settings. Uninstalling the app erases everything it stored.</p>
+  <p>If you are in the European Economic Area or the United Kingdom, you have rights of access, rectification, erasure, restriction, objection, and portability under the GDPR; because we do not collect or hold your personal data, these generally apply only to any support email you send us, for which our legal basis is our legitimate interest in answering you. If you are a California resident, you have rights of access and deletion under the CCPA/CPRA; we do not sell or share personal information as those terms are defined. To exercise any right, or to complain, email us at the address below.</p>
+
+  <h2>10. Security</h2>
+  <p>Your content is protected by iOS app sandboxing and device encryption, and the hidden documents area can be locked behind Face ID or Touch ID. No system is perfectly secure, but the app is designed so that your documents &mdash; the most sensitive material &mdash; never leave your device in the first place unless you share them.</p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>If this policy changes materially &mdash; for example if a future version introduces a feature that sends data off the device &mdash; we will update the date at the top of this page and, where the change affects how your data is used, show a notice in the app.</p>
+
+  <h2>12. Contact</h2>
+  <p>Questions or requests about privacy &mdash; including access, correction, or deletion requests &mdash; can be sent to Aqib Rasheed at <a href="mailto:Aqibrasheed854@gmail.com">Aqibrasheed854@gmail.com</a>. We aim to respond within 30 days.</p>
+
+  <hr>
+  <footer>&copy; 2026 Aqib Rasheed. This policy covers the Scanisto: PDF Scanner iOS app only.</footer>
+
+</main>
+</body>
+</html>
